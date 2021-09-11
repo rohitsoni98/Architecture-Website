@@ -1,0 +1,302 @@
+@media(max-width:1500px){
+    .header{
+        height: 135vh;
+    }
+    .team{
+        height: 130vh;
+    }
+    .card{
+        height: 50vh;
+        width: 20vw;
+    }
+    .contact{
+        height: 130vh;
+    }
+    .contact-wraper{
+        height: 95vh;
+    }
+    .scroll-btn{
+        bottom: 20px;
+        height: 8vh;
+    }
+}
+
+@media(max-width:1300px){
+    .about-us-img-wraper {
+       grid-row: 3/6;
+    }
+    .social-media i{
+        width: 4vw;
+        height: 4vw;
+    }
+    .banner button{
+        width: 18vw;
+        height: 8vh;
+        border-radius: 5px;
+    }
+    .card-info button{
+        width: 12vw;
+        height: 3vw;
+    }
+}
+
+@media(max-width:1000px){
+    .change .hamburger-menu {
+        right: 25%;
+    }
+    .change .sidebar {
+        width: 30vw;
+    }
+    
+    .banner{
+        left: 5%;
+    }
+    .banner h1 {
+        font-size: 40px;
+    }
+    
+    .menu {
+        top: 45%;
+    }
+    .menu-link {
+        font-size: 27px;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        bottom: 5px;
+    }
+    .social-media i {
+        width: 5vw;
+        height: 5vw;
+        margin: 2px;
+    }
+    .about-us-img-wraper img {
+        width: 45vw;
+    }
+    .underline {
+        width: 15%;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+    }
+    .service{
+        text-align: center;
+    }
+    .service-header {
+        justify-content: center;
+    }
+    .card {
+        height: 50vh;
+        width: 25vw;
+
+    }
+    .card-info p{
+        font-size: 10px;
+    }
+    
+    .contact-wraper{
+        width: 75%;
+        border-radius: 10px;
+        height: 100vh;
+    }
+    .contact-right{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .contact-left{
+        width: 0%;
+        border-radius: 10px;
+    }
+    .input-group textarea {
+        max-height: 15vh;
+        max-width: 55vw;
+    }
+    .field{
+        width: 55vw;
+    }
+    .submit-btn{
+        width: 20vw;
+        height: 7vh;
+        font-size: 15px;
+    }
+    .footer-content{
+        width: 80%;
+        align-items: center;
+    }
+    .copyright{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .social-list{
+        margin: 20px auto;
+        width: 30%;
+    }
+
+    .scroll-btn {
+        bottom: 24px;
+        height: 6vh;
+    }
+}
+
+@media(max-width:700px){
+    .change .hamburger-menu {
+        right: 35%;
+    }
+    .hamburger span{
+        width: 11vw;
+    }
+    .change .sidebar {
+        width: 47vw;
+    }
+    .change .hamburger-menu:hover span {
+        width: 10vw;
+        height: 5vh;
+    }
+    .social-media i {
+        width: 7vw;
+        height: 7vw;
+    }
+    .banner h1 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .banner p{
+        font-size: 20px;
+    }
+    .cards-wraper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto 0 auto;
+        width: 100%;
+    }
+    .card {
+        height: 30vh;
+        width: 24%;
+        margin-bottom: 15px;
+    }
+    .card:hover .card-info {
+        opacity: 1;
+        bottom: 0px;
+        visibility: visible;
+        padding: 5px;
+    }
+    .card-info h2{
+        font-size: 20px;
+    }
+    .card-info h3{
+        font-size: 15px;
+    }
+    .card-info p{
+        font-size: 7px;
+    }
+    .contact-wraper {
+        width: 85%;
+    }
+    .scroll-btn {
+        bottom: 24px;
+        height: 7vh;
+        width: 5vw;
+        right: 20px;
+    }
+    .footer{
+        height: 30vh;
+    }
+    .copyright{
+        order: 1;
+        text-align: center;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:560px){
+    .banner h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner p {
+        font-size: 14px;
+        letter-spacing: 3px;
+        margin-bottom: 5px;
+    }
+    .banner button {
+        width: 30vw;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .menu-link {
+        font-size: 21px;
+    }
+    .change .hamburger-menu:hover span {
+        width: 20vw;
+        height: 5vh;
+    }
+    .social-media{
+        bottom: 20px;
+    }
+    .social-media i {
+        width: 10vw;
+        height: 10vw;
+        margin: 3px;
+    }
+    .service-text{
+        font-size: 12px;
+    }
+    .about-us-img-wraper img {
+        width: 70vw;
+    }
+    .team {
+        height: 150vh;
+    }
+    .card {
+        height: 35vh;
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .card-info button {
+        width: 15vw;
+        height: 7vw;
+        font-size: 9px;
+    }
+    .input-group label {
+        font-size: 15px;
+    }
+    .field {
+        width: 70vw;
+    }
+    .input-group textarea {
+        max-width: 70vw;
+    }
+    .contact {
+        height: 110vh;
+    }
+    .contact-wraper {
+        width: 90%;
+        height: 90vh;
+    }
+    .social-list {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .copyright {
+        width: 100%;
+    }
+    .scroll-btn {
+        height: 8vh;
+        width: 8vw;
+        right: 10px;
+    }
+}
